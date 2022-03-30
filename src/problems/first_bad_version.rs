@@ -2,13 +2,12 @@ struct Solution {
     target: i32,
 }
 
-
 impl Solution {
     pub fn new(target: i32) -> Solution {
         Solution { target }
     }
 
-    fn isBadVersion(&self, v: i32) -> bool {
+    fn is_bad_version(&self, v: i32) -> bool {
         v >= self.target
     }
 
@@ -19,7 +18,7 @@ impl Solution {
         while l < r {
             let i = l + (r - l) / 2;
 
-            if self.isBadVersion(i as i32) {
+            if self.is_bad_version(i as i32) {
                 r = i;
             } else {
                 l = i + 1
@@ -37,13 +36,7 @@ fn test() {
         1702766719
     );
 
-    assert_eq!(
-        Solution::new(4).first_bad_version(5),
-        4
-    );
+    assert_eq!(Solution::new(4).first_bad_version(5), 4);
 
-    assert_eq!(
-        Solution::new(1).first_bad_version(1),
-        1
-    );
+    assert_eq!(Solution::new(1).first_bad_version(1), 1);
 }
