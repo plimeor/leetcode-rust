@@ -1,5 +1,3 @@
-extern crate core;
-
 mod problems;
 
 fn main() {
