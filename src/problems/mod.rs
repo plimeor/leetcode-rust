@@ -1,8 +1,7 @@
-mod two_sum;
-mod longest_substring_without_repeating_characters;
-mod max_consecutive_answers;
-mod is_palindrome;
-// 278
-mod first_bad_version;
-// 704
-mod search;
+mod no0001_two_sum;
+mod no0003_longest_substring_without_repeating_characters;
+mod no0009_palindrome_number;
+mod no0035_search_insert_position;
+mod no0278_first_bad_version;
+mod no0704_binary_search;
+mod no2024_maximize_the_confusion_of_an_exam;
