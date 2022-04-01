@@ -7,13 +7,13 @@ impl Solution {
     pub fn search(nums: Vec<i32>, target: i32) -> i32 {
         let mut l = 0;
         let mut r = nums.len() - 1;
-        let mut i = r / 2;
 
         if nums[r] < target || nums[l] > target {
             return -1;
         }
 
-        while l < r {
+        while l <= r {
+            let i = (l + r) / 2;
             let cur = nums[i];
 
             if cur == target {
@@ -24,14 +24,9 @@ impl Solution {
                 r = i - 1;
             }
 
-            i = (l + r) / 2;
         }
 
-        if nums[l] == target {
-            l as i32
-        } else {
-            -1
-        }
+        -1
     }
 }
 
