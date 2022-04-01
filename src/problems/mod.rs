@@ -1,4 +1,5 @@
 mod no0001_two_sum;
+mod no0002_add_two_numbers;
 mod no0003_longest_substring_without_repeating_characters;
 mod no0009_palindrome_number;
 mod no0035_search_insert_position;

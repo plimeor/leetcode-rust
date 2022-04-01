@@ -20,12 +20,12 @@ impl Solution {
         let mut r = n;
 
         while l <= r {
-            let i = ( l + r) / 2;
+            let i = l + (r - l) / 2;
             let val = guess(i);
 
             if val == 0 {
                 return i;
-            } else if val > 0{
+            } else if val > 0 {
                 l = i + 1;
             } else {
                 r = i - 1;
