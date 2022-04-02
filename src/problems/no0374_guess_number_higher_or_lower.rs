@@ -10,12 +10,12 @@
  */
 struct Solution;
 
-unsafe fn guess(num: i32) -> i32 {
+unsafe fn guess(_num: i32) -> i32 {
     1
 }
 
 impl Solution {
-    unsafe fn guessNumber(n: i32) -> i32 {
+    unsafe fn guess_number(n: i32) -> i32 {
         let mut l = 1;
         let mut r = n;
 
