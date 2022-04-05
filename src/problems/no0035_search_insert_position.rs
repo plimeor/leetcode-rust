@@ -18,7 +18,7 @@ impl Solution {
             return r as i32 + 1
         }
 
-        while l < r {
+        while l <= r {
             let i = (l + r) / 2;
             let v = nums[i];
 
@@ -31,11 +31,7 @@ impl Solution {
             }
         }
 
-        if nums[l] >= target {
-            l as i32
-        } else {
-            (l + 1) as i32
-        }
+        l as i32
     }
 }
 
