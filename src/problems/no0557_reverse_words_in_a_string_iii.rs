@@ -1,6 +1,3 @@
-use std::ops::Index;
-use std::str::Chars;
-
 struct Solution;
 
 impl Solution {

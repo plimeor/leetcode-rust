@@ -1,4 +1,4 @@
-extern crate core;
+mod common;
 
 #[allow(unused)]
 #[allow(unused_variables)]
