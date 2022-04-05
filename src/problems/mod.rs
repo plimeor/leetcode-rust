@@ -3,6 +3,7 @@ mod no0002_add_two_numbers;
 mod no0003_longest_substring_without_repeating_characters;
 mod no0009_palindrome_number;
 mod no0019_remove_nth_node_from_end_of_list;
+mod no0034_find_first_and_last_position_of_element_in_sorted_array;
 mod no0035_search_insert_position;
 mod no0069_sqrtx;
 mod no0167_two_sum_ii_input_array_is_sorted;
