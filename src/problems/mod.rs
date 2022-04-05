@@ -15,6 +15,7 @@ mod no0374_guess_number_higher_or_lower;
 mod no0557_reverse_words_in_a_string_iii;
 mod no0567_permutation_in_string;
 mod no0704_binary_search;
+mod no0744_find_smallest_letter_greater_than_target;
 mod no0852_peak_index_in_a_mountain_array;
 mod no0876_middle_of_the_linked_list;
 mod no0977_squares_of_a_sorted_array;
