@@ -9,6 +9,7 @@ mod no0189_rotate_array;
 mod no0278_first_bad_version;
 mod no0283_move_zeros;
 mod no0344_reverse_string;
+mod no0367_valid_perfect_square;
 mod no0374_guess_number_higher_or_lower;
 mod no0557_reverse_words_in_a_string_iii;
 mod no0567_permutation_in_string;
