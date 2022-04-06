@@ -9,8 +9,8 @@ mod problems;
 
 fn main() {
     init_problem(
-        34,
-        String::from("find-first-and-last-position-of-element-in-sorted-array"),
+        441,
+        String::from("arranging-coins"),
     )
     .unwrap();
 }
