@@ -8,11 +8,9 @@ mod common;
 mod problems;
 
 fn main() {
-    init_problem(
-        1539,
-        String::from("kth-missing-positive-number"),
-    )
-    .unwrap();
+    let problem_id = 733;
+    let problem_title = "flood-fill";
+    init_problem(problem_id, String::from(problem_title)).unwrap();
 }
 
 fn init_problem(problem_id: u32, problem_title: String) -> Result<(), std::io::Error> {
