@@ -8,8 +8,8 @@ mod common;
 mod problems;
 
 fn main() {
-    let problem_id = 733;
-    let problem_title = "flood-fill";
+    let problem_id = 695;
+    let problem_title = "max-area-of-island";
     init_problem(problem_id, String::from(problem_title)).unwrap();
 }
 
