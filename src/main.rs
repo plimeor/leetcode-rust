@@ -9,8 +9,8 @@ mod problems;
 
 fn main() {
     init_problem(
-        441,
-        String::from("arranging-coins"),
+        1539,
+        String::from("kth-missing-positive-number"),
     )
     .unwrap();
 }
