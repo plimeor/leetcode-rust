@@ -10,7 +10,7 @@ mod common;
 mod problems;
 
 fn main() {
-    init_problem(162, String::from("find-peak-element")).unwrap();
+    init_problem(349, String::from("intersection-of-two-arrays")).unwrap();
 }
 
 fn init_problem(problem_id: u32, problem_title: String) -> Result<(), std::io::Error> {

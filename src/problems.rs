@@ -26,3 +26,4 @@ mod no1385_find_the_distance_value_between_two_arrays;
 mod no1539_kth_missing_positive_number;
 mod no2024_maximize_the_confusion_of_an_exam;
 mod no0162_find_peak_element;
+mod no0349_intersection_of_two_arrays;
