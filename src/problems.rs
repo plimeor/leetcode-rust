@@ -28,3 +28,4 @@ mod no2024_maximize_the_confusion_of_an_exam;
 mod no0162_find_peak_element;
 mod no0349_intersection_of_two_arrays;
 mod no0209_minimum_size_subarray_sum;
+mod no0033_search_in_rotated_sorted_array;

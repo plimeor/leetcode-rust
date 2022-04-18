@@ -10,7 +10,7 @@ mod common;
 mod problems;
 
 fn main() {
-    init_problem(209, String::from("minimum-size-subarray-sum")).unwrap();
+    init_problem(33, String::from("search-in-rotated-sorted-array")).unwrap();
 }
 
 fn init_problem(problem_id: u32, problem_title: String) -> Result<(), std::io::Error> {
