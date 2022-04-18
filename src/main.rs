@@ -1,3 +1,5 @@
+extern crate core;
+
 use std::io::prelude::*;
 use std::{fs, path};
 mod common;
@@ -8,9 +10,7 @@ mod common;
 mod problems;
 
 fn main() {
-    let problem_id = 695;
-    let problem_title = "max-area-of-island";
-    init_problem(problem_id, String::from(problem_title)).unwrap();
+    init_problem(74, String::from("search-a-2d-matrix")).unwrap();
 }
 
 fn init_problem(problem_id: u32, problem_title: String) -> Result<(), std::io::Error> {
@@ -40,8 +40,7 @@ fn test(){{
     let mut mod_file = fs::OpenOptions::new()
         .write(true)
         .append(true)
-        .open("./src/problems/mod.rs")
-        .unwrap();
+        .open("./src/problems.rs")?;
 
     writeln!(mod_file, "mod {};", &solution_name)?;
 

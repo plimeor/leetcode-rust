@@ -6,6 +6,7 @@ mod no0019_remove_nth_node_from_end_of_list;
 mod no0034_find_first_and_last_position_of_element_in_sorted_array;
 mod no0035_search_insert_position;
 mod no0069_sqrtx;
+mod no0074_search_a_2d_matrix;
 mod no0167_two_sum_ii_input_array_is_sorted;
 mod no0189_rotate_array;
 mod no0278_first_bad_version;
