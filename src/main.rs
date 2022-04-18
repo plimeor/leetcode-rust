@@ -10,7 +10,7 @@ mod common;
 mod problems;
 
 fn main() {
-    init_problem(74, String::from("search-a-2d-matrix")).unwrap();
+    init_problem(162, String::from("find-peak-element")).unwrap();
 }
 
 fn init_problem(problem_id: u32, problem_title: String) -> Result<(), std::io::Error> {
