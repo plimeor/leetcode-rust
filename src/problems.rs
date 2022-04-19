@@ -30,3 +30,4 @@ mod no1385_find_the_distance_value_between_two_arrays;
 mod no1539_kth_missing_positive_number;
 mod no2024_maximize_the_confusion_of_an_exam;
 mod no2224_minimum_number_of_operations_to_convert_time;
+mod no0020_valid_parentheses;
