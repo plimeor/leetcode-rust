@@ -33,3 +33,4 @@ mod no1539_kth_missing_positive_number;
 mod no2024_maximize_the_confusion_of_an_exam;
 mod no2224_minimum_number_of_operations_to_convert_time;
 mod no2240_number_of_ways_to_buy_pens_and_pencils;
+mod no1018_binary_prefix_divisible_by_5;
