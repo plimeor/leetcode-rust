@@ -39,3 +39,4 @@ mod no2240_number_of_ways_to_buy_pens_and_pencils;
 mod no1758_minimum_changes_to_make_alternating_binary_string;
 mod no0151_reverse_words_in_a_string;
 mod no1108_defanging_an_ip_address;
+mod no0050_powx_n;
